@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaquery.css">
+    <title>Premium House</title>
+</head>
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="#" class="img"><img src="./images/logo2.png" class="logo" alt="Logo Central Coffee Shop"></a>
+            <div class="toggle" onclick="toggleMenu();"></div>
+            <ul class="nav" id="nav">
+                <li><a href="#" onclick="toggleMenu();">Home</a></li>
+                <li><a href="#" onclick="toggleMenu();">Menu</a></li>
+                <li><a href="#" onclick="toggleMenu();">About Us</a></li>
+                <li><a href="#" onclick="toggleMenu();">Contact</a></li>
+            </ul>
+        </header>
+
+        <div class="content">
+            <div class="textBox">
+                <h2>Not just a Coffee</h2>
+                <h2><span>Premium House</span></h2>
+                <p>We'll provide a friendly and comfortable atmosphere where your can receive quality drinks, service and entertainment at a reasonable price. Our coffee house will offer you a variety of choices. We are more than a coffee shop, we are Premium House Coffe.</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+            <div class="imgBox">
+                <img src="./images/iced2.png" style="width: 400px; height: 580px;" alt="Iced Coffee" class="coffeeImg">
+            </div>
+        </div>
+
+        <ul class="thumb">
+            <li><img src="./images/iced-thumb.png" onclick="mainImg('./images/iced2.png');"></li>
+            <li><img src="./images/black-russian-thumb.png" onclick="mainImg('./images/black-russian.png');"></li>
+            <li><img src="./images/tropical-mate-thumb.png" onclick="mainImg('./images/tropical-mate.png');"></li>
+        </ul>
+
+        <ul class="medias">
+            <li><a href="#"><img src="./images/facebook.png" alt="Facebook"></a></li>
+            <li><a href="#"><img src="./images/instagram.png" alt="Instagram"></a></li>
+            <li><a href="#"><img src="./images/twitter.png" alt="Twitter"></a></li>
+        </ul>
+
+        <script src="./functions.js">
+        </script>
+       
+    </section>
+</body>
+</html>
